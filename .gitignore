@@ -28,3 +28,18 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Compilação e binários
+out/
+bin/
+*.class
+
+# Arquivos específicos do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Logs e arquivos temporários
+*.log
+.shell_history
