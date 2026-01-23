@@ -35,6 +35,7 @@ bin/
 *.class
 
 # Arquivos específicos do IntelliJ IDEA
+.idea
 .idea/
 *.iml
 *.iws
