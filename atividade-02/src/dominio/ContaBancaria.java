@@ -3,21 +3,29 @@ package dominio;
 public class ContaBancaria {
     private double saldo;
 
-    public double sacar(double saque) {
-        if (saque <= saldo) {
+    public boolean sacar(double saque) {
+        if (saque <= saldo && saque > 0) {
             saldo -= saque;
+            System.out.println("saque de " + saque + " realizado com sucesso");
+            return true;
         } else {
-            System.out.println("Saldo insuficiente");
+            System.out.println("tentativa de sacar " + saque + " falhou, Saldo insuficiente");
+            return false;
         }
+    }
+
+    public boolean depositar(double deposito) {
+        if (deposito > 0) {
+            saldo += deposito;
+            System.out.println(deposito + " depositado");
+            return true;
+        } else  {
+            return false;
+        }
+    }
+
+    public double getSaldo() {
         return saldo;
     }
 
-    public double depositar(double saque) {
-        saldo += saque;
-        return saldo;
-    }
-
-    public void verSaldo() {
-        System.out.println(saldo);
-    }
 }
