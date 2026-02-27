@@ -1,3 +1,5 @@
+package dominio;
+
 public class Inimigo {
     private int vida;
     private String nome;

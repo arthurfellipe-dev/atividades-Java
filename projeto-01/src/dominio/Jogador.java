@@ -1,3 +1,5 @@
+package dominio;
+
 public class Jogador {
     private String nome;
     private static int vida = 100;
