@@ -6,7 +6,7 @@ import dominio.Professor;
 import dominio.Seminario;
 import service.SeminarioRelatorio;
 
-public class Teste01 {
+public class SeminarioTeste01 {
     public static void main(String[] args) {
         Local local = new Local("Rua Chile");
 

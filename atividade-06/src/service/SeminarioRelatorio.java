@@ -37,7 +37,6 @@ public class SeminarioRelatorio {
             } else {
                 System.out.println("Nenhum aluno encontrado");
             }
-
         }
     }
 }
