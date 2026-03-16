@@ -4,7 +4,7 @@ public class Funcionario {
     protected String nome;
     protected double salario;
     protected Departamento departamento;
-
+    
     public Funcionario(String nome) {
         this.nome = nome;
     }
