@@ -44,7 +44,6 @@ public class AparelhoDVD{
         if(filme != null &&  ligado == true){
             Filme filmeTemp = filme;
             filme = null;
-            System.out.println("Nome do filme removido: " + filmeTemp.nome);
             filmeInserido = false;
             return filmeTemp;
         } 
