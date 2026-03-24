@@ -43,3 +43,6 @@ bin/
 # Logs e arquivos temporários
 *.log
 .shell_history
+
+.gemini/
+gha-creds-*.json
