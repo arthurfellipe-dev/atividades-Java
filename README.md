@@ -1,47 +1,50 @@
 # Java Learning Journey 🚀
 
-Repositório dedicado ao estudo e prática da linguagem Java, focado em Programação Orientada a Objetos (POO). Aqui organizo meus exercícios e projetos para demonstrar a evolução do meu conhecimento técnico.
+Repositório dedicado ao estudo e prática da linguagem Java, seguindo a trilha da **Maratona Java (DevDojo)**. Aqui organizo meus exercícios por módulos lógicos para demonstrar a evolução do meu conhecimento.
 
 ---
 
 ## 🗺️ Mapa de Conhecimentos (Skill Map)
 
-### 🏁 01. Fundamentos e POO Básica
-Conceitos essenciais de classes, objetos e proteção de dados.
-- **Classes e Objetos**: 
-  - [Atividade 01](./01-Fundamentals/atividade-01) - Criação de classes, atributos e métodos.
-  - [Atividade 04](./01-Fundamentals/atividade-04) - Modelagem de objetos do mundo real.
-- **Encapsulamento**: 
-  - [Atividade 02](./01-Fundamentals/atividade-02) - Modificadores de acesso, Getters e Setters.
-- **Enums**: 
-  - [Atividade 03](./01-Fundamentals/atividade-03) - Constantes e estados fixos.
+### 📂 01. Sintaxe e Estruturas
+Fundamentos da linguagem: tipos primitivos, operadores e controle de fluxo.
+- *Status: Em breve / Revisão*
 
-### 🔗 02. Relacionamentos e Composição
-Como diferentes objetos interagem e se compõem.
-- **Associação Simples**: [Atividade 05](./02-Relationships-and-Composition/atividade-05)
-- **Associações Complexas**: [Atividade 06](./02-Relationships-and-Composition/atividade-06)
-- **Lógica de Estado**: [Atividade 08](./02-Relationships-and-Composition/atividade-08)
-- **Composição/Agregação**: [Atividade 09](./02-Relationships-and-Composition/atividade-09)
+### 📂 02. Orientação a Objetos - Básico
+Conceitos essenciais de classes, métodos e proteção de dados.
+- **Classes e Atributos**: [Atividade 01](./02-Orientacao-a-Objetos-Basico/atividade-01), [Atividade 04](./02-Orientacao-a-Objetos-Basico/atividade-04)
+- **Encapsulamento (Private/Get/Set)**: [Atividade 02](./02-Orientacao-a-Objetos-Basico/atividade-02)
+- **Lógica de Estado**: [Atividade 08](./02-Orientacao-a-Objetos-Basico/atividade-08)
 
-### 🏛️ 03. Herança e Polimorfismo
-Reuso de código e flexibilidade de comportamento.
-- **Herança**: [Atividade 07](./03-Inheritance-and-Polymorphism/atividade-07)
-- **Polimorfismo**: [Atividade 11](./03-Inheritance-and-Polymorphism/atividade-11)
+### 📂 03. Orientacao a Objetos - Relacionamentos
+Como os objetos interagem entre si.
+- **Associação**: [Atividade 05](./03-Orientacao-a-Objetos-Relacionamentos/atividade-05), [Atividade 06](./03-Orientacao-a-Objetos-Relacionamentos/atividade-06)
+- **Composição/Agregação**: [Atividade 09](./03-Orientacao-a-Objetos-Relacionamentos/atividade-09)
 
-### 🔌 04. Interfaces
-Definição de contratos e múltiplas implementações.
-- **Interfaces Simples**: [Atividade 10](./04-Interfaces/atividade-10)
-- **Múltiplas Interfaces**: [Atividade 12](./04-Interfaces/atividade-12)
+### 📂 04. Orientação a Objetos - Avançado
+Pilares avançados e abstrações.
+- **Herança**: [Atividade 07](./04-Orientacao-a-Objetos-Avancado/atividade-07)
+- **Enums**: [Atividade 03](./04-Orientacao-a-Objetos-Avancado/atividade-03)
+- **Interfaces**: [Atividade 10](./04-Orientacao-a-Objetos-Avancado/atividade-10), [Atividade 12](./04-Orientacao-a-Objetos-Avancado/atividade-12)
+- **Polimorfismo**: [Atividade 11](./04-Orientacao-a-Objetos-Avancado/atividade-11)
 
-### 🚀 05. Tópicos Avançados (Em breve)
-Áreas de estudo futuro para domínio completo do Java.
-- 📂 [Exceptions](./05-Advanced-Topics-Future/exceptions) - Tratamento de erros e robustez.
-- 📂 [Lambdas & Streams](./05-Advanced-Topics-Future/lambdas) - Programação funcional.
-- 📂 [MultiThreading](./05-Advanced-Topics-Future/multithreading) - Processamento paralelo.
-- 📂 [Generics & Collections](./05-Advanced-Topics-Future/generics-collections) - Estruturas de dados avançadas.
+### 📂 05. Exceções
+Tratamento de erros e robustez do código.
+- *Status: Próximo tópico*
 
-### 🎮 06. Projetos
-- **[Projeto RPG](./06-Projects/projeto-01)**: Aplicação prática integrando múltiplos conceitos.
+### 📂 06 a 13. Tópicos Avançados
+Estrutura preparada para os próximos passos da Maratona:
+- **06. Classes Utilitárias** (String, IO, NIO, Dates)
+- **07. Coleções**
+- **08. Generics**
+- **09. Programação Funcional** (Lambdas, Streams)
+- **10. Threads e Concorrência**
+- **11. Padrões de Projeto**
+- **12. JDBC**
+- **13. Testes Unitários**
+
+### 🎮 14. Projetos
+- **[Projeto RPG](./14-Projetos/projeto-01)**: Aplicação prática integrando múltiplos conceitos.
 
 ---
-*Estudando constantemente para dominar o ecossistema Java!*
+*Focado em me tornar um desenvolvedor Java de elite!*
