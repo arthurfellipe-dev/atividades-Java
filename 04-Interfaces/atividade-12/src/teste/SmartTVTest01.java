@@ -8,7 +8,7 @@ public class SmartTVTest01 {
 
         smartTV.ligar();
         smartTV.conectar("xxx-xxx");
-        smartTV.desligar();
+        smartTV.desligar();Mu
         smartTV.conectar("xxx-xxx");
     }
 }
