@@ -4,7 +4,7 @@ Repositorio dedicado ao estudo e pratica da linguagem Java, seguindo a trilha da
 
 ---
 
-## Mapa de Conhecimentos (Skill Map)
+## Mapa de Conhecimentos 
 
 ### 01. Sintaxe e Estruturas
 Fundamentos da linguagem: tipos primitivos, operadores e controle de fluxo.
