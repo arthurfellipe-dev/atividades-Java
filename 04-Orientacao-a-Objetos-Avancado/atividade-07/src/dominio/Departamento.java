@@ -7,7 +7,7 @@ public enum Departamento {
 
     private final String nome;
 
-    private Departamento(String nome) {
+    Departamento(String nome) {
         this.nome = nome;
     }
 
