@@ -7,7 +7,8 @@ public final class ContaCorrente extends Conta {
         super(saldo, titular);
     }
 
-    public double cobrarTarifaMensal(){
+    @Override
+    public double aplicarMensalmente() {
         this.saldo -= TARIFA;
         return this.saldo;
     }

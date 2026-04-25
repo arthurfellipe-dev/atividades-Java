@@ -7,7 +7,8 @@ public final class ContaPoupanca extends Conta {
         super(saldo, titular);
     }
 
-    public double aplicarRendimento(){
+    @Override
+    public double aplicarMensalmente(){
         this.saldo += this.saldo * PERCENTUAL;
         return this.saldo;
     }

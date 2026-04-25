@@ -6,10 +6,7 @@ public class GerenciadorContas {
 
     public static void processarContas(List<Conta> contas){
         for(Conta conta : contas){
-            if (conta instanceof ContaPoupanca cp)
-                cp.aplicarRendimento();
-            if (conta instanceof ContaCorrente cc)
-                cc.cobrarTarifaMensal();
+            conta.aplicarMensalmente();
         }
     }
 

@@ -11,7 +11,7 @@ public class AparelhoDVD{
     }
     
     public void ligar(){
-        if (ligado == true){
+        if (ligado){
             System.out.println("O aparelho dvd ja esta ligado");
             return;
         }
@@ -20,16 +20,14 @@ public class AparelhoDVD{
     }
     
     public void desligar(){
-        if (ligado == false){
+        if (ligado){
             System.out.println("o aparelho dvd ja esta desligado");
             return;
         }
-        
-        ligado = false;
     }
     
     public Filme inserirFilme(Filme filme){
-        if (ligado == false || filme == null || filmeInserido == true){
+        if (!ligado || filme == null || filmeInserido){
             System.out.println("erro");
             return null;
         }
@@ -41,19 +39,19 @@ public class AparelhoDVD{
     }
     
     public Filme removerFilme(){
-        if(filme != null &&  ligado == true){
+        if(filme != null &&  ligado){
             Filme filmeTemp = filme;
             filme = null;
             filmeInserido = false;
             return filmeTemp;
         } 
-        if (ligado == true)
+        if (ligado)
             System.out.println("erro");
         return null;
     }
 
     public void play(){
-        if (filmeInserido != true || ligado != true) {
+        if (!filmeInserido|| !ligado) {
             System.out.println("erro");
             return;
         }
@@ -63,7 +61,7 @@ public class AparelhoDVD{
     }    
 
     public void stop(){
-        if ( reproduzindo != true || ligado != true ){
+        if ( !reproduzindo || !ligado ){
             System.out.println("erro");
             return;
         }
@@ -72,7 +70,7 @@ public class AparelhoDVD{
     }
     
     public int aumentarVolume() {
-        if ( volume == 5 || ligado == false) {
+        if ( volume == 5 || !ligado) {
             System.out.println("erro");
             return -1;
         }
@@ -83,7 +81,7 @@ public class AparelhoDVD{
     }
 
     public int diminuirVolume() {
-        if ( volume == 1 || ligado == false){
+        if ( volume == 1 || !ligado){
             System.out.println("erro");
             return -1;
         }

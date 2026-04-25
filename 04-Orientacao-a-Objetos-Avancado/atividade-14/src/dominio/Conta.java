@@ -9,6 +9,7 @@ public sealed abstract class Conta permits ContaCorrente, ContaPoupanca {
         this.titular = titular;
     }
 
+    public abstract double aplicarMensalmente();
 
     public double getSaldo() {
         return saldo;
