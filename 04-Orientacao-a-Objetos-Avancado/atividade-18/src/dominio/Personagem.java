@@ -7,7 +7,7 @@ public abstract class Personagem implements Atacavel {
     private String nome;
     private int vida;
     private int dano;
-    TipoPersonagem tipo;
+    private TipoPersonagem tipo;
     private String nomeHabilidade;
 
 
@@ -36,6 +36,9 @@ public abstract class Personagem implements Atacavel {
         }
 
         personagemAlvo.setVida(personagemAlvo.getVida() - this.dano);
+        if(!personagemAlvo.isVivo()){
+            personagemAlvo.setVida(0);
+        }
         Impressora.imprimirStatusAtaque(this, personagemAlvo);
 
         return personagemAlvo.getVida();
@@ -59,6 +62,10 @@ public abstract class Personagem implements Atacavel {
 
     public void setVida(int vida) {
         this.vida = vida;
+    }
+
+    public boolean isVivo(){
+        return this.vida > 0;
     }
 
     public int getDano() {

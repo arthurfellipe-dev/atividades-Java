@@ -13,8 +13,9 @@ public final class Impressora {
     }
 
     public static void imprimirStatusAtaque(Personagem atacante, Personagem alvo){
-        System.out.println(atacante.getNome() + " causou " + atacante.getDano() + " de dano em " + alvo.getNome());
-        System.out.println("Vida de "+ alvo.getNome()  +": " + alvo.getVida());
+            System.out.println(atacante.getNome() + " causou " + atacante.getDano() + " de dano em " + alvo.getNome());
+            System.out.println("Vida de "+ alvo.getNome()  +": " + alvo.getVida());
+
     }
 
     public static void imprimirStatusHabilidade(Personagem p1) {
