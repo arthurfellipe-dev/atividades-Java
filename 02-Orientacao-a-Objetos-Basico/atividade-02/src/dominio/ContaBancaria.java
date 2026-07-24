@@ -3,6 +3,10 @@ package dominio;
 public class ContaBancaria {
     private double saldo;
 
+
+    public ContaBancaria() {
+    }
+
     public boolean sacar(double saque) {
         if (saque <= saldo && saque > 0) {
             saldo -= saque;

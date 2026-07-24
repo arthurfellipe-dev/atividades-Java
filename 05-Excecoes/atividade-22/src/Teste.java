@@ -1,3 +1,3 @@
 void main() {
-    System.out.println(Conversor.stringParaInt("123A", -1));
+    System.out.println(Conversor.stringParaInt("123b", -1));
 }

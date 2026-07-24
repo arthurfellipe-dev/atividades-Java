@@ -1,5 +1,5 @@
 void main() {
-    ContaBancaria contaBancaria = new ContaBancaria(900);
+    ContaBancaria contaBancaria = new ContaBancaria(890);
 
     try{
         contaBancaria.sacar(899);

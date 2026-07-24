@@ -1,6 +1,6 @@
 package teste;
 
-import dominio.Celular;
+import dominio.*;
 
 public class CelularTeste01  {
     public static void main(String[] args) {
