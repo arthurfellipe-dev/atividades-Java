@@ -7,7 +7,4 @@ void main() {
 
     System.out.println(bundle.getString("bemVindo"));
     System.out.println(bundle1.getString("bemVindo"));
-
-
-
 }
